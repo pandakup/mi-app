@@ -1,7 +1,7 @@
-﻿/* ========== IMPORTACIONES ========== */
+
 @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
 
-/* ========== RESET Y ESTILOS GENERALES ========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +22,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* ========== TIPOGRAFÍA ========== */
+
 h1, h2, h3, h4, h5, h6, 
 button, 
 .amiibo-name, 
@@ -32,7 +32,7 @@ p.lead,
   font-family: 'Bitter', serif;
 }
 
-/* ========== NAVBAR ========== */
+
 .navbar {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   background-color: rgb(110, 218, 245) !important;
@@ -120,8 +120,7 @@ section {
   padding: 0 20px;
 }
 
-/* Separador entre secciones */
-/* ========== BARRA USUARIO - ALTURA REDUCIDA ========== */
+
 .Usuario-container {
   padding: 0.5rem 0 !important; /* Reducir padding vertical */
   min-height: 50px !important; /* Altura mínima más pequeña */
@@ -139,7 +138,7 @@ section {
   min-height: unset !important;
 }
 
-/* Texto más pequeño y compacto */
+
 .descripcion p {
   font-size: 0.95rem !important;
   line-height: 1.2 !important;
@@ -147,7 +146,7 @@ section {
   padding: 0 !important;
 }
 
-/* Input más compacto */
+
 .Usuario input.form-control {
   height: 36px !important; /* Altura reducida */
   padding: 0.3rem 0.8rem !important; /* Padding interno reducido */
@@ -164,13 +163,13 @@ section {
   margin: 0 !important;
 }
 
-/* Eliminar márgenes y paddings extra */
+
 .Usuario > * {
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* En móviles también mantener en fila si hay espacio */
+
 @media (max-width: 768px) {
   .Usuario-container {
     padding: 0.4rem 0 !important;
@@ -261,7 +260,7 @@ section {
   color: rgba(255, 255, 255, 0.9);
 }
 
-./* ========== CARRUSEL ========== */
+
 .carousel-control-prev,
 .carousel-control-next {
   width: 60px;
