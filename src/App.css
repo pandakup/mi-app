@@ -1522,7 +1522,6 @@ section {
   }
 }
 
-/* ========== ANIMACIONES ========== */
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -1579,7 +1578,6 @@ section {
 .rounded-lg { border-radius: 18px !important; }
 .rounded-xl { border-radius: 24px !important; }
 
-/* ========== SCROLLBAR PERSONALIZADA ========== */
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -1599,7 +1597,6 @@ section {
   background: linear-gradient(to bottom, #2980b9, #2471a3);
 }
 
-/* ========== EFECTO DE BRILLO EN ELEMENTOS ========== */
 .glow {
   position: relative;
 }
